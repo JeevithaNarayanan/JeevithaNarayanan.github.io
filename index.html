@@ -13,14 +13,16 @@
   <nav
     class="backdrop-blur-xl bg-white/30 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-300">
     <div class="max-w-screen-lg flex flex-wrap items-center justify-between mx-auto p-4">
-      <a href="" class="flex items-center space-x-3 rtl:space-x-reverse">
+      <a href="#Home" class="flex items-center space-x-3 rtl:space-x-reverse">
         <!-- <img src="images/logo.svg" class="h-12" alt="Logo"> -->
         <h1 class="text-[40px] font-bold"> {J}</h1>
       </a>
       <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-        <button type="button"
-          class="text-white bg-gray-700 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-gray-600 dark:hover:bg-slate-900 dark:focus:ring-gray-300">Download
-          CV</button>
+        <a href="images/pdf/JeevithaCV.pdf" download>
+          <button type="button"
+            class="text-white bg-gray-700 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-gray-600 dark:hover:bg-slate-900 dark:focus:ring-gray-300">
+            Download CV</button>
+        </a>
         <button data-collapse-toggle="navbar-sticky" type="button"
           class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
           aria-controls="navbar-sticky" aria-expanded="false">
@@ -38,19 +40,23 @@
             <a href="#" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-gray-950" aria-current="page">Home</a>
           </li> -->
           <li>
-            <a href="#"
+            <a href="#Home"
+              class="block py-2 px-3 text-gray-500 rounded hover:bg-gray-900 md:hover:bg-transparent md:hover:text-red-700 md:p-0 md:dark:hover:text-gray-950 dark:text-gray-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Home</a>
+          </li>
+          <li>
+            <a href="#Work"
               class="block py-2 px-3 text-gray-500 rounded hover:bg-gray-900 md:hover:bg-transparent md:hover:text-red-700 md:p-0 md:dark:hover:text-gray-950 dark:text-gray-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Work</a>
           </li>
           <li>
-            <a href="#"
+            <a href="#Experience"
               class="block py-2 px-3 text-gray-500 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-gray-950 dark:text-gray-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Experience</a>
           </li>
           <li>
-            <a href="#"
+            <a href="#Education"
               class="block py-2 px-3 text-gray-500 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-gray-950 dark:text-gray-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Education</a>
           </li>
           <li>
-            <a href="#"
+            <a href="#contact"
               class="block py-2 px-3 text-gray-500 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-gray-950 dark:text-gray-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
           </li>
         </ul>
@@ -59,49 +65,50 @@
   </nav>
 
   <div class="max-w-screen-lg  flex flex-wrap items-center justify-between mx-auto mt-44 ">
-    <div class="bg-transparent py-20 items-center text-xl font-sans leading-8">
-      <p class="font-medium">👋🏽 there!</p>
-      <h3 class="font-bold text-4xl">I'm Jeevitha Narayanan.</h3>
-      <h3 class="font-bold text-4xl">I build Web Applications.</h3>
-      <p class="w-9/12 my-6 text-custom">
-        I'm a visual learner and a self-taught developer with 2+ years of professional experience in turning ideas into
-        products.
-        <br>
-        <br>
-        I primarily engage in back-end development using
-        <strong>PHP</strong>,
-        <strong>Laravel</strong>,
-        <strong>JQuery</strong>,
-        <strong>Ajax</strong>,
-        <strong>MySQL</strong> and
-        <strong>SQL Server</strong>,
-        and in front-end development
-        <strong>HTML5</strong>,
-        <strong>CSS</strong>,
-        <strong>Bootstrap</strong>,
-        <strong>Tailwind</strong> and
-        <strong>Javascript</strong>.
-        I also enjoy exploring and learning different things in my spare time.
-        <br><br>
-        Additionally, I have practical experience with technologies such as
-        <strong>APIs</strong> and
-        <strong>Splade</strong>,
-        as well as tools like
-        <strong>Figma</strong> and
-        <strong>DB Diagram</strong>.
-      </p>
-    </div>
-
-    <section class="items-stretch h-full w-full w-9/12 my-6">
-
+    <!-- Intoduction section start  first section-->
+      <section id="Home" class="pt-20">
+        <div class="bg-transparent pt-20 items-center text-xl font-sans leading-8">
+          <p class="font-medium">👋🏽 there!</p>
+          <h3 class="font-bold text-4xl">I'm Jeevitha Narayanan.</h3>
+          <h3 class="font-bold text-4xl">I build Web Applications.</h3>
+          <p class="w-9/12 my-6 text-custom">
+            I am a visual learner and self-taught developer with over 2+ years of professional experience in transforming ideas into functional products.
+            <br>
+            <br>
+            My expertise lies primarily in back-end development, working with technologies such as 
+            <strong>PHP</strong>,
+            <strong>Laravel</strong>,
+            <strong>JQuery</strong>,
+            <strong>Ajax</strong>,
+            <strong>MySQL</strong> and
+            <strong>SQL Server</strong>.
+            On the front end, I am proficient in
+            <strong>HTML5</strong>,
+            <strong>CSS</strong>,
+            <strong>Javascript</strong>,
+            <strong>Bootstrap</strong>,
+            <strong>Tailwind</strong>. 
+            <br><br>
+            In addition to my core skills, I enjoy exploring and learning new things in my spare time. I also have hands-on experience with
+            <strong>APIs</strong> and
+            <strong>Splade</strong>,
+            and am familiar with tools like 
+            <strong>GIT</strong>,
+            <strong>Bitbucket</strong>, 
+            <strong>Figma</strong> and
+            <strong>DB Diagram</strong>.
+          </p>
+        </div>
+      </section>
+    <!-- Introduction section end  first section-->
+    <section id="Work" class="pt-24">
       <div class="flex items-center gap-3 mb-16">
         <hr class="w-20 h-1 bg-black">
         </hr>
         <h2 class="font-bold text-4xl ">
           Recent Work</h2>
       </div>
-
-      <!-- second section -->
+    <!-- second section -->
       <div class="grid grid-cols-2 text-black items-center font-sans leading-8 pb-16 gap-6">
 
         <div class="col-span-1">
@@ -121,46 +128,41 @@
               Laravel
             </li>
             <li class="bg-neutral-700 rounded-full text-slate-200 text-center px-3  inline-block">
-              React Native
+              Splade
             </li>
             <li class="bg-neutral-700 rounded-full text-slate-200 text-center px-3  inline-block">
-              Typescript
+              MySQL
             </li>
             <li class="bg-neutral-700 rounded-full text-slate-200 text-center px-3  inline-block">
-              Stripe
+              Postman
             </li>
           </ul>
           <ul class="mb-5">
             <li class="bg-neutral-700 rounded-full text-slate-200 text-center px-3  inline-block">
-              Figma
+              Apidog
             </li>
           </ul>
 
           <div class="flex space-x-4">
-            <a href=""
+            <a href="#"
               class="h-12 w-40 border-2 border-slate-800 rounded-lg text-neutral-700 flex justify-center items-center">
               <span>Source code</span>
             </a>
-            <a href=""
+            <a href="#"
               class="h-12 w-40 border-2 border-neutral-700 rounded-lg bg-neutral-700 text-white flex justify-center items-center"><span>Download.apk</span></a>
           </div>
         </div>
-
-
         <div class="bg-transparent h-full text-black content-center col-span-1 ">
           <div class="">
             <img src="images/habitual-ecommerce.webp" alt="" class="w-96 h-full ps-40 object-cover">
-
           </div>
         </div>
-
       </div>
 
-      <!-- second section end -->
+    <!-- second section end -->
 
-      <!-- third section -->
+    <!-- third section -->
       <div class="grid grid-cols-2 pb-16">
-
         <div class=" h-full w-full text-black col-span-1 row-span-1 content-center">
           <div class="mx-10 mt-12">
             <img src="images/habitual-portal_laptop.webp" alt="" class="w-full h-full object-cover">
@@ -193,22 +195,19 @@
               </div>
             </div>
             <div class="flex space-x-4">
-              <a href=""
+              <a href="#"
                 class="h-12 w-40 border-2 border-slate-800 rounded-lg text-neutral-700 flex justify-center items-center">
                 <span>Source code</span>
               </a>
-              <a href=""
+              <a href="#"
                 class="h-12 w-40 border-2 border-neutral-700 rounded-lg bg-neutral-700 text-white flex justify-center items-center"><span>View
                   Portal</span></a>
             </div>
           </div>
         </div>
       </div>
-
       <!-- third section end-->
-
-    </section>
-    <section class="items-stretch h-full w-full w-9/12">
+      <!-- fourth section -->
       <div class="flex items-center gap-3">
         <hr class="w-20 h-1 bg-black">
         </hr>
@@ -221,10 +220,9 @@
             <img src="images/ep.webp" alt="" class="p-8 object-cover">
           </div>
           <div class="card-content h-32 p-6">
-            <h3 class="text-2xl font-bold">EP</h3>
+            <h3 class="text-2xl font-bold">L&T</h3>
             <p class="text-sm font-sans">
-              An event planning application that allows users to host and participate in
-              hosted events.
+              Server-side web application logic and integration using laravel 8.Dynamic input fields and interactions in jquery and js. 
             </p>
           </div>
         </div>
@@ -233,9 +231,9 @@
             <img src="images/foodies.webp" alt="" class="p-8 object-cover">
           </div>
           <div class="card-content h-32 p-4">
-            <h3 class="text-2xl font-bold">Foodies</h3>
+            <h3 class="text-2xl font-bold">CDMS</h3>
             <p class="text-sm font-sans">
-              Food e-store with basic e-commerce features built with GraphQL and Apollo.
+              Server-side web application logic and integration using laravel 9.Dynamic input fields and interactions in jquery and js. 
             </p>
           </div>
         </div>
@@ -244,20 +242,264 @@
             <img src="images/codepen_MeLkG5w4F.webp" alt="" class="p-8 object-cover">
           </div>
           <div class="card-content h-32 p-4">
-            <h3 class="text-2xl font-bold content-center">UI</h3>
+            <h3 class="text-2xl font-bold content-center">Portfolio</h3>
             <p class="text-sm font-sans">
-              Worked on a few UIs with CSS and Vanilla JS a few years back. You can check
-              out my CodePen profile.
+              My portfolio showcases UIs developed with HTML and Tailwind CSS, reflecting my skills in both.
             </p>
           </div>
         </div>
       </div>
     </section>
-    <section></section>
-    <section></section>
-    <section></section>
+    <!-- fourth section end -->
 
+    <!-- fifth section -->
+    <div class="w-full">
+      <section id="Experience" class="pt-24">
+        <div class="flex items-center gap-3">
+          <hr class="w-20 h-1 bg-black"></hr>
+          <h2 class="font-bold text-4xl">Work Experience</h2>
+        </div>     
+        <div class="place-items-center font-sans m-8 p-12 ">
+          <div class="flex gap-x-3">
+            <div class="w-24 text-end">
+              <span class="text-xs font-bold">Oct 2023 to Current</span>
+            </div>
+            <div class="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-black">
+              <div class="relative z-10 size-7 flex justify-center items-center">
+                <!-- <div class="size-2 rounded-full bg-gray-400"></div> -->
+                <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="font-bold "
+                class="h-5 w-5">
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                  clip-rule="evenodd" />
+              </svg>
+              </div>
+            </div>
+            <div class="grow pt-0.5 pb-8">
+              <h3 class="flex gap-x-1.5 font-bold text-gray-800">
+                Cloudrevel Innovations Private Limited.
+              </h3>
+              <p class="mt-1 text-sm font-semibold text-gray-600">
+                Software Engineer
+              </p>
+              <button type="button" class="mt-1 -ms-1 p-1 inline-flex items-center gap-x-2 text-xs rounded-lg border border-transparent text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none">
+                <svg class="shrink-0 size-4 mt-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" x2="8" y1="13" y2="13"></line>
+                  <line x1="16" x2="8" y1="17" y2="17"></line>
+                  <line x1="10" x2="8" y1="9" y2="9"></line>
+                </svg>
+                HRMS-Human Resource Management System
+              </button>
+            </div>
+          </div>
 
+            <div class="flex gap-x-3">
+              <div class="w-24 text-end">
+                <span class="text-xs font-bold ">June 2022 to Sep 2023</span>
+              </div>
+              <div class="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-black">
+                <div class="relative z-10 size-7 flex justify-center items-center">
+                  <!-- <div class="size-2 rounded-full bg-gray-400"></div> -->
+                  <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="font-bold "
+                  class="h-5 w-5">
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                    clip-rule="evenodd" />
+                </svg>
+                </div>
+              </div>
+              <div class="grow pt-0.5 pb-8">
+                <h3 class="flex gap-x-1.5 font-bold text-gray-800">
+                Xmedia Solutions
+                </h3>
+                <p class="mt-1 text-sm font-semibold text-gray-600">
+                  Software Developer
+                </p>
+
+                <button type="button" class="mt-1 -ms-1 p-1 inline-flex items-center gap-x-2 text-xs rounded-lg border border-transparent text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none">
+                  <svg class="shrink-0 size-4 mt-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
+                    <polyline points="14 2 14 8 20 8"></polyline>
+                    <line x1="16" x2="8" y1="13" y2="13"></line>
+                    <line x1="16" x2="8" y1="17" y2="17"></line>
+                    <line x1="10" x2="8" y1="9" y2="9"></line>
+                  </svg>
+                  L&T Construction - Workmen Mobilisation Application
+                </button>
+                <!-- <span class="flex shrink-0 justify-center items-center size-4 bg-white border border-gray-200 text-[10px] font-semibold uppercase text-gray-600 rounded-full">
+                  T
+                </span> -->
+
+                <br>
+                <button type="button" class="mt-1 -ms-1 p-1 inline-flex items-center gap-x-2 text-xs rounded-lg border border-transparent text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none">
+                  <svg class="shrink-0 size-4 mt-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
+                    <polyline points="14 2 14 8 20 8"></polyline>
+                    <line x1="16" x2="8" y1="13" y2="13"></line>
+                    <line x1="16" x2="8" y1="17" y2="17"></line>
+                    <line x1="10" x2="8" y1="9" y2="9"></line>
+                  </svg>
+                  CDMS-School Management System
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- fifth section end-->
+      <!-- sixth section -->
+      <section id="Education"></section>
+      <div class="w-full">
+        <div class="flex items-center gap-3">
+          <hr class="w-20 h-1 bg-black"></hr>
+          <h2 class="font-bold text-4xl">Education</h2>
+        </div> 
+            <!-- fifth section -->   
+        <div class="place-items-center font-sans m-8 p-12 ">
+          <div class="flex gap-x-3">
+            <div class="w-24 text-end">
+              <span class="text-xs font-bold"> 2018 to 2020</span>
+            </div>
+            <div class="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-black">
+              <div class="relative z-10 size-7 flex justify-center items-center">
+                <!-- <div class="size-2 rounded-full bg-gray-400"></div> -->
+                <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="font-bold "
+                class="h-5 w-5">
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                  clip-rule="evenodd" />
+              </svg>
+              </div>
+            </div>
+            <div class="grow pt-0.5 pb-8">
+              <h3 class="flex gap-x-1.5 font-bold text-gray-800">
+                Women's Christian College, Chennai.
+              </h3>
+              <p class="mt-1 text-sm font-semibold text-gray-600">
+                M.SC (Information Tecnology)
+              </p>
+            </div>
+          </div>
+
+            <div class="flex gap-x-3">
+              <div class="w-24 text-end">
+                <span class="text-xs font-bold ">2015 to 2018</span>
+              </div>
+              <div class="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-black">
+                <div class="relative z-10 size-7 flex justify-center items-center">
+                  <!-- <div class="size-2 rounded-full bg-gray-400"></div> -->
+                  <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="font-bold "
+                  class="h-5 w-5">
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                    clip-rule="evenodd" />
+                </svg>
+                </div>
+              </div>
+              <div class="grow pt-0.5 pb-8">
+                <h3 class="flex gap-x-1.5 font-bold text-gray-800">
+                Women's Christian College, Chennai.
+                </h3>
+                <p class="mt-1 text-sm font-semibold text-gray-600">
+                  BCA (Bachelor of Computer Application)
+                </p>
+              </div>
+            </div>
+            <div class="flex gap-x-3">
+              <div class="w-24 text-end">
+                <span class="text-xs font-bold ">2013 to 2015</span>
+              </div>
+              <div class="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-black">
+                <div class="relative z-10 size-7 flex justify-center items-center">
+                  <!-- <div class="size-2 rounded-full bg-gray-400"></div> -->
+                  <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="font-bold "
+                  class="h-5 w-5">
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                    clip-rule="evenodd" />
+                </svg>
+                </div>
+              </div>
+              <div class="grow pt-0.5 pb-8">
+                <h3 class="flex gap-x-1.5 font-bold text-gray-800">
+                Vetri Vikaas Girls Higher Secondary School, Namakkal. 
+                </h3>
+                <p class="mt-1 text-sm font-semibold text-gray-600">
+                  High school
+                </p>
+              </div>
+            </div>
+            <div class="flex gap-x-3">
+              <div class="w-24 text-end">
+                <span class="text-xs font-bold ">2013</span>
+              </div>
+              <div class="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-black">
+                <div class="relative z-10 size-7 flex justify-center items-center">
+                  <!-- <div class="size-2 rounded-full bg-gray-400"></div> -->
+                  <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="font-bold "
+                  class="h-5 w-5">
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                    clip-rule="evenodd" />
+                </svg>
+                </div>
+              </div>
+              <div class="grow pt-0.5 pb-8">
+                <h3 class="flex gap-x-1.5 font-bold text-gray-800">
+                Government Girls Higher Secondary School,Perungattur.
+                </h3>
+                <p class="mt-1 text-sm font-semibold text-gray-600">
+                  SSLC
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div id="contact" class="w-full">
+        <div class="flex items-center gap-3">
+          <hr class="w-20 h-1 bg-black"></hr>
+          <h2 class="font-bold text-4xl">Contact</h2>
+        </div> 
+        <p class="block py-2 px-3 text-gray-800 pt-8  ">
+          Get in touch or shoot me an email directly on 
+          <strong class="underline decoration-2">jeevi0523@gmail.com</strong>
+        </p>
+      <div class="pt-4 pb-8">
+        <hr class="w-full h-0 bg-gray-100 "></hr>
+      </div>
+      <div></div>
+      <div class="text-xs pb-8 flex justify-end">
+        <p class="text-gray-600">Design & Developed by 
+          <strong class="underline decoration-2 font-bold">Jeevith Narayanan </strong> </p>
+      </div>
+      </div>
   </div>
 
 
